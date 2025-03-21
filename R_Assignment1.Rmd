@@ -201,7 +201,8 @@ ggplot(snps_per_chr, aes(x = factor(Chromosome), y = n, color = Group)) +
 ```
 
 
-###Part I: Distribution of SNPs acorss chromosome 
+###Part I: Distribution of SNPs acorss chromosome
+
 ```{r}
 # Remove chromosomes labeled as 'unknown' or 'multiple'
 filtered_snp_position <- snp_position %>%
